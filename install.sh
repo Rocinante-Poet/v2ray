@@ -1009,7 +1009,7 @@ uninstall() {
 			echo
 		fi
 
-	elif [[ -f /usr/bin/v2ray/v2ray && -f /etc/v2ray/config.json ]] && [[ -f /etc/v2ray/233blog_v2ray_backup.txt && -d /etc/v2ray/233boy/v2ray ]]; then
+	elif [[ -f /usr/bin/v2ray/v2ray && -f /etc/v2ray/config.json ]] && [[ -f /etc/v2ray/233blog_v2ray_backup.txt && -d /etc/v2ray/Poet/v2ray ]]; then
 		echo
 		echo -e " $yellow输入 ${cyan}v2ray uninstall${none} $yellow即可卸载${none}"
 		echo
